@@ -2,8 +2,8 @@
 
 To run the project:
 
-git clone https://github.com/peternnadi1999/rootstock-slither-voting-dapp
+```git clone https://github.com/peternnadi1999/rootstock-slither-voting-dapp
 cd rootstock-slither-voting-dapp
 npm install
 npx hardhat test
-slither contracts/Voting.sol
+slither contracts/Voting.sol```
