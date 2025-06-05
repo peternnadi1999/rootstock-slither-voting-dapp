@@ -1,13 +1,9 @@
-# Sample Hardhat Project
+# Rootstock Slither Voting dApp Example
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+To run the project:
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
+git clone https://github.com/peternnadi1999/rootstock-slither-voting-dapp
+cd rootstock-slither-voting-dapp
+npm install
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+slither contracts/Voting.sol
